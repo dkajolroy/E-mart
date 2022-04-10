@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.main_nav_bars {
+  background: rgb(9, 121, 74);
+}
+.main_nav_bars li:hover {
+  background: darkslategray;
+}
+.main_nav_bars li a {
+  font-size: 20px;
+}
+
+.image_item {
+  overflow: hidden;
+  display: block;
+}
+.product_image {
+  max-width: 100%;
+  transition: 0.2s;
+}
+.product_image:hover {
+  transform: scale(1.5);
+}
